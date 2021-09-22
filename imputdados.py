@@ -25,7 +25,7 @@ cursor = conector.cursor()
 #cursor.execute(sql)
 
 #sql = """insert into acessorio(Cd_acessorio, Acestipo, Publico, Marca, Vlr_unitac, Estoqueac) values ('3','Puceira','Feminino','Mary','R$ 75.45','9'),('2','Boné','Masculino','Bongo','R$ 120.00','6')"""
-sql = """insert into estoque (Pd_codigo, Nome, Vd_valor, Saldo, Pd_qtd, Gr_nome, Cd_publicotipo, Marca, Imagem, Criado_em) VALUES ('1','Camisa','R$ 34,87','10','2','Roupas','Masculino','Nike',3,'30-08-2021')"""
+sql = """insert into estoque (Pd_codigo, Produto, Cor, Vd_valor, Saldo, Pd_qtd, Gr_nome, Cd_publicotipo, Marca, Imagem, Criado_em) VALUES ('3','Brinco', '-','R$ 14.00','20','2','Acessorios','Feminino','Mary',3,'10-05-2021')"""
 
 #sql= """insert into Imagens (Img_Codigo, Imagem) VALUES (1,LOAD_FILE("C:\blusa.jpeg"))"""
 

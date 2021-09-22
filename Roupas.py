@@ -16,6 +16,7 @@ CREATE TABLE roupas(
         Cd_publicotipo TEXT NOT NULL,
         Moda TEXT NOT NULL,
         FOREIGN KEY (Moda) REFERENCES moda(Moda),
+        FOREIGN KEY (Marca) REFERENCES marca(marca),
         FOREIGN KEY (Cd_publicotipo) REFERENCES publico(Cd_publicotipo),
         FOREIGN KEY (Tamanho) REFERENCES tamanho(Tamanho)
 );

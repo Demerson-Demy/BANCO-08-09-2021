@@ -7,7 +7,7 @@ cursor = conector.cursor()
 cursor.execute("""
 CREATE TABLE grupo (
         Cd_grupo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        Gr_nome INTERGER (30) NOT NULL
+        Gr_nome TEXT NOT NULL
        
         
 

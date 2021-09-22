@@ -7,11 +7,12 @@ cursor = conector.cursor()
 cursor.execute("""
 CREATE TABLE estoque (
         Pd_codigo INTEGER NOT NULL PRIMARY KEY,
-        Nome TEXT NOT NULL,
+        Produto TEXT NOT NULL,
+        Cor TEXT NOT NULL,
         Vd_valor SMALLMONEY,
         Saldo INTEGER,
         Pd_qtd INTEGER,
-        Gr_nome INTEGER NOT NULL,
+        Gr_nome TEXT NOT NULL,
         Cd_publicotipo TEXT NOT NULL,
         Marca VARCHAR (30) NOT NULL,
         Imagem VARCHAR (50) NOT NULL,
